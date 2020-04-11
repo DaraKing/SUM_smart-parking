@@ -1,0 +1,16 @@
+#login {
+  @include center(both);
+  background: $white;
+  height: 500px;
+  width: 80vw;
+  border-radius: 25px;
+
+  img {
+    height: 100px;
+    @include margin-auto(10);
+  }
+
+  button {
+    @include margin-auto(10);
+  }
+}
